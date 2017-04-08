@@ -1,4 +1,4 @@
-﻿namespace PlutoRover
+﻿namespace PlutoRover.Interfaces
 {
     public interface IOrientation
     {

@@ -40,9 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IOrientation.cs" />
+    <Compile Include="Interfaces\ILocationManager.cs" />
+    <Compile Include="Interfaces\IOrientation.cs" />
+    <Compile Include="Interfaces\IOrientationController.cs" />
+    <Compile Include="Interfaces\IOrientationManager.cs" />
+    <Compile Include="Interfaces\IOrientationReader.cs" />
+    <Compile Include="LocationManager.cs" />
     <Compile Include="Orientation.cs" />
-    <Compile Include="OrientationController.cs" />
+    <Compile Include="OrientationManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -52,10 +52,11 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Dummies\DummyOrientationReader.cs" />
     <Compile Include="MovementControllerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="LocationControllerTest.cs" />
-    <Compile Include="OrientationControllerTest.cs" />
+    <Compile Include="LocationManagerTest.cs" />
+    <Compile Include="OrientationManagerTest.cs" />
     <Compile Include="OrientationTest.cs" />
   </ItemGroup>
   <ItemGroup>
