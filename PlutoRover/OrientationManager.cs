@@ -11,7 +11,7 @@ namespace PlutoRover
         public OrientationManager
                 (
                      IOrientation startingOrientation
-                    , IDictionary<string, IOrientation> orientations
+                    ,IDictionary<string, IOrientation> orientations
                 )
         {
             _currentOrientation = startingOrientation;

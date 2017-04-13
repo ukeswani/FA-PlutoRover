@@ -58,6 +58,7 @@
     <Compile Include="LocationManagerTest.cs" />
     <Compile Include="OrientationManagerTest.cs" />
     <Compile Include="OrientationTest.cs" />
+    <Compile Include="AlternateLocationManagerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PlutoRover\PlutoRover.csproj">

@@ -215,5 +215,5 @@ namespace PlutoRoverTest
 
             Assert.AreEqual("0,100", currentLocation, "Moving Forward from 100,100 facing East does not give 0,100");
         }
-    }   
+    }        
 }
